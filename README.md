@@ -11,6 +11,7 @@ function MaxLengthText(element, len) {
     if (element.value.length > len) {
         txt = element.value.substring(0, len);
         element.set("value", txt);
+	console.log('demo')
     }
 }
 ~~~~
